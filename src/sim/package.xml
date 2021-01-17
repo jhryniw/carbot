@@ -1,0 +1,20 @@
+<package format="2">
+    <name>sim</name>
+    <version>0.0.1</version>
+    <description>
+        Package for gazebo simulation of the vehicle
+    </description>
+    <maintainer email="jhryniw@gmail.com">James Hryniw</maintainer>
+    <license>MIT</license>
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <depend>gazebo_ros</depend>
+    <depend>car_msgs</depend>
+
+    <exec_depend>robot_state_publisher</exec_depend>
+
+    <export>
+        <gazebo_ros gazebo_media_path="${prefix}"
+                    gazebo_model_path="${prefix}/models"/>
+    </export>
+</package>

@@ -1,0 +1,1 @@
+export GAZEBO_MODEL_DATABASE_URI=""
